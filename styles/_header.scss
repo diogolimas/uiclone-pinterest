@@ -1,3 +1,5 @@
+
+
 header{
     display: flex;
     justify-content: space-between;
@@ -7,6 +9,21 @@ header{
         color: $red;
         font-size: 20px;
         font-weight: 700;
+    }
+    div{
+        display: flex;
+        //justify-content: space-between;
+        align-items: center;
+    }
+    svg{
+        
+        color: $red;
+        fill: currentColor;
+        stroke-width: 0;
+        vertical-align: middle;
+    }
+    h3{
+        margin-left: 3px;
     }
     nav{
         display: flex;
@@ -31,7 +48,7 @@ header{
             display: flex;
             
             button{
-                margin-left: 24px;
+                margin-left: 14px;
                 font-size: 16px;
                 font-weight: 700;
                 padding: 11px 12px;
